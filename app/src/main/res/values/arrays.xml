@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <array name="species">
+    <item>Flame Pokémon</item>
+    <item>Shellfish Pokémon</item>
+    <item>Jellyfish Pokémon</item>
+    <item>Magnet Pokémon</item>
+    <item>Long Leg Pokémon</item>
+    <item>Darkness Pokémon</item>
+    <item>Lava Pokémon</item>
+ </array>
+
+    <array name="height">
+        <item>5′7″ (1.70m)</item>
+        <item>5′3″ (1.60m)</item>
+        <item>5′3″ (1.60m)</item>
+        <item>3′3″ (0.99m)</item>
+        <item>3′7″ (1.09m)</item>
+        <item>1′8″ (0.51m)</item>
+        <item>2′7″ (0.79m)</item>
+    </array>
+
+    <array name="weight">
+        <item>199.5 lbs (90.5 kg)</item>
+        <item>188.5 lbs (85.5 kg)</item>
+        <item>121.3 lbs (55.0 kg)</item>
+        <item>132.3 lbs (60.0 kg)</item>
+        <item>73.9 lbs (33.5 kg)</item>
+        <item>4.6 lbs (2.1 kg)</item>
+        <item>121.3 lbs (55.0 kg)</item>
+    </array>
+
+    <array name="abilities1">
+        <item>Blaze</item>
+        <item>Torrent</item>
+        <item>Clear Body</item>
+        <item>Magnet Pull</item>
+        <item>Insomnia</item>
+        <item>Insomnia</item>
+        <item>Flame Body</item>
+    </array>
+
+    <array name="abilities2">
+        <item>Solar Power (hidden ability)</item>
+        <item>Rain Dish (hidden ability)</item>
+        <item>Liquid Ooze</item>
+        <item>Sturdy</item>
+        <item>Swarm</item>
+        <item>Super Luck</item>
+        <item>Magma Armor</item>
+    </array>
+
+    <array name="abilities3">
+        <item></item>
+        <item></item>
+        <item>Rain Dish (hidden ability)</item>
+        <item>Analytic (hidden ability)</item>
+        <item>Sniper (hidden ability)</item>
+        <item>Prankster (hidden ability)</item>
+        <item>Weak Armor (hidden ability)</item>
+    </array>
+
+    <array name="details">
+        <item>http://pokemondb.net/pokedex/charizard</item>
+        <item>http://pokemondb.net/pokedex/blastoise</item>
+        <item>http://pokemondb.net/pokedex/tentacruel</item>
+        <item>http://pokemondb.net/pokedex/magneton</item>
+        <item>http://pokemondb.net/pokedex/ariados</item>
+        <item>http://pokemondb.net/pokedex/murkrow</item>
+        <item>http://pokemondb.net/pokedex/magcargo</item>
+    </array>
+</resources>

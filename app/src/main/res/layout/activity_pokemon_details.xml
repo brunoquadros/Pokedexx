@@ -1,0 +1,218 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageDetailsView"
+        android:layout_margin="10dp"
+        android:src="@drawable/sprite_009"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="39dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="WATER"
+            android:id="@+id/tipo"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="50dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="39dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="WATER"
+            android:id="@+id/tipo2"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="15dp"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pokedex Data"
+            android:id="@+id/viewPokedexData"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Species"
+            android:id="@+id/viewSpecies"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/species"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Shellfish Pokémon"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Altura"
+            android:id="@+id/vieweHight"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/height"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="5′3″ (1.60m)"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Peso"
+            android:id="@+id/viewWeight"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/weight"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="188.5 lbs (85.5 kg)"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Habilidades"
+            android:id="@+id/viewAbilities"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/abilities"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Torrent"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="246dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/abilities2"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="tsunami"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="246dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/abilities3"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="tsunami"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:text="+ Details"
+        android:id="@+id/details"
+        android:layout_weight="0.09"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
